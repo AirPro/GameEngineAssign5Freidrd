@@ -80,5 +80,13 @@ public class WorkerController : MonoBehaviour
             anim.SetTrigger("LeftTurn");
             accept_input = false;
         }
+
+        // try and get my character to walk
+        //if (Input.GetKey(KeyCode.W))
+        //{
+        //    anim.SetBool("Crouch", false) ;
+        //    anim.SetTrigger("Walking");
+        //    accept_input = false;
+        //}
     }
 }
