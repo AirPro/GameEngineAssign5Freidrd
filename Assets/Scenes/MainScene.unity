@@ -3928,6 +3928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instructor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cfa94f9a483fc845b44b4b84e931dbb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cfa94f9a483fc845b44b4b84e931dbb, type: 3}
 --- !u!1 &493902850 stripped
@@ -3968,6 +3972,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a738cb4b979b4904cab9c1d349a86794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainPlayer: {fileID: 910895165}
+  TargetDistance: 0
+  AllowedDistance: 5
+  TheNPC: {fileID: 493902850}
+  FollowSpeed: 0
 --- !u!1 &540863688
 GameObject:
   m_ObjectHideFlags: 0
