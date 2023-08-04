@@ -9,10 +9,10 @@ public class InstructorStateController : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject MainPlayer;
-    public float TargetDistance;
-    public float AllowedDistance = 5;
+    public float TargetDistance = 2f;
+    public float AllowedDistance = 5f;
     public GameObject TheNPC;
-    public float FollowSpeed;
+    public float FollowSpeed = .5f;
     public RaycastHit Shot;
 
     void Start()
