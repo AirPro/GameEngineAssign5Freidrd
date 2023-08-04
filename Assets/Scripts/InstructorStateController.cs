@@ -5,7 +5,7 @@ using UnityEngine;
 public class InstructorStateController : MonoBehaviour
 {
     // Creater an animator object
-    Animator animator;
+    Animator anim;
     // Start is called before the first frame update
 
     public GameObject MainPlayer;
@@ -17,8 +17,8 @@ public class InstructorStateController : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();
-        Debug.Log(animator);
+        anim = GetComponent<Animator>();
+        Debug.Log(anim);
     }
 
     // Update is called once per frame

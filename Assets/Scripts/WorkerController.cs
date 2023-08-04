@@ -82,11 +82,11 @@ public class WorkerController : MonoBehaviour
         }
 
         // try and get my character to walk
-        //if (Input.GetKey(KeyCode.W))
-        //{
-        //    anim.SetBool("Crouch", false) ;
-        //    anim.SetTrigger("Walking");
-        //    accept_input = false;
-        //}
+        if (Input.GetKey(KeyCode.W))
+        {
+            anim.SetBool("Crouch", false);
+            anim.SetTrigger("Walking");
+            accept_input = false;
+        }
     }
 }
